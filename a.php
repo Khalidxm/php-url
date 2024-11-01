@@ -1,4 +1,4 @@
-?php
+<?php
 
 $logFile = 'user_activity.log';
 $currentUrl = $_POST['url'] ?? '';
