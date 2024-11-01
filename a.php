@@ -1,5 +1,6 @@
 ?php
-$logFile = 'url.log';
+
+$logFile = 'user_activity.log';
 $currentUrl = $_POST['url'] ?? '';
 
 $logMessage = "URL: $currentUrl\n";
